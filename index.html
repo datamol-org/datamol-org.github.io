@@ -18,7 +18,19 @@
       href="https://fonts.googleapis.com/css?family=K2D:300,400,500,700,800"
       rel="stylesheet"
     />
-
+    <!--Prism-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/plugins/toolbar/prism-toolbar.min.css"
+      integrity="sha512-DSAA0ziYwggOJ3QyWFZhIaU8bSwQLyfnyIrmShRLBdJMtiYKT7Ju35ujBCZ6ApK3HURt34p2xNo+KX9ebQNEPQ=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/plugins/command-line/prism-command-line.min.css"
+      integrity="sha512-4Y1uID1tEWeqDdbb7452znwjRVwseCy9kK9BNA7Sv4PlMroQzYRznkoWTfRURSADM/SbfZSbv/iW5sNpzSbsYg=="
+      crossorigin="anonymous"
+    />
     <!-- Bootstrap CSS / Color Scheme -->
     <link rel="stylesheet" href="css/bootstrap.css" />
   </head>
@@ -36,11 +48,7 @@
             class="col-12 d-flex flex-row align-items-center justify-content-between"
           >
             <div class="heading-brand">
-              <img
-              height="32"
-                style="display: inline"
-                src="assets/logo.svg"
-              />
+              <img height="32" style="display: inline" src="assets/logo.svg" />
               Datamol
             </div>
             <div>
@@ -81,12 +89,19 @@
         </div>
         <div class="row mt-5">
           <div class="col-md-9 mx-auto">
+            <pre class="language-sh-session"><code class="language-sh-session"
+            >mamba install -c conda-forge datamol</code></pre>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-md-9 mx-auto">
             <div class="code-window">
               <div class="dots">
                 <div class="red"></div>
                 <div class="orange"></div>
                 <div class="green"></div>
               </div>
+
               <pre
                 class="language-python line-numbers"
               ><code class="language-python">import datamol as dm
@@ -237,7 +252,8 @@ dm.to_sdf(mols, "gs://data-bucket/smiles.sdf")
               Sitting on the Shoulder of Giants
             </h2>
             <p class="lead text-muted">
-              Datamol sits on top of the most powerful cheminformatics and scientific libraries.
+              Datamol sits on top of the most powerful cheminformatics and
+              scientific libraries.
             </p>
             <div
               class="mt-5 d-flex flex-row justify-content-md-between flex-wrap press-icons"
@@ -305,6 +321,22 @@ dm.to_sdf(mols, "gs://data-bucket/smiles.sdf")
     <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.7.3/feather.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/prism.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/components/prism-python.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/components/prism-shell-session.min.js"
+      integrity="sha512-p9Q2CABx+Zze5z1dhjfhY1BoGowvE8ADk7B6DOyR1RUPPam6dlvsd2IufQ8HzSOBE3QtJGQKFhPNd9jRBl31+Q=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/plugins/toolbar/prism-toolbar.min.js"
+      integrity="sha512-cu2C9EssrOrVXT4thyL4gz/qWyh3Lq9XbICUXYyh3zJRCSKk1J08tBKPXnsSpdpZXOliaK/OJBygw/l0twAmwA=="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/plugins/copy-to-clipboard/prism-copy-to-clipboard.min.js"
+      integrity="sha512-bWzyGaP/f19RLeYGN6ZhDgvkS7GM0Fq23lOI1/PB3lV6I775RIDzXLxCGR4iiDGzeMsQ3lncuXUQMFP7qO9lIQ=="
+      crossorigin="anonymous"
+    ></script>
     <script src="js/scripts.js"></script>
   </body>
 </html>
