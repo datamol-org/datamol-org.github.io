@@ -5287,23 +5287,23 @@ pre[class*="language-"].line-numbers > code {
   top: 3%;
   left: 10%;
   background: #0af;
-  width: 1500px;
-  height: 1300px;
+  width: 1000px;
+  height: 900px;
   margin-left: -150px;
   margin-top: -250px;
   transform-origin: 50% 48%;
   border-radius: 43%;
-  animation: drift 12s infinite linear;
+  animation: drift 20s infinite linear;
 }
 
 .wave.-three {
-  animation: drift 10s infinite linear;
+  animation: drift 18s infinite linear;
 	position: fixed;
 	background-color: #77daff;
 }
 
 .wave.-two {
-  animation: drift 9s infinite linear;
+  animation: drift 16s infinite linear;
   opacity: .1;
   background: #0af;
 	position: fixed;
