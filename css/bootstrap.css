@@ -5293,17 +5293,17 @@ pre[class*="language-"].line-numbers > code {
   margin-top: -250px;
   transform-origin: 50% 48%;
   border-radius: 43%;
-  animation: drift 20s infinite linear;
+  animation: drift 30s infinite linear;
 }
 
 .wave.-three {
-  animation: drift 18s infinite linear;
+  animation: drift 25s infinite linear;
 	position: fixed;
 	background-color: #77daff;
 }
 
 .wave.-two {
-  animation: drift 16s infinite linear;
+  animation: drift 20s infinite linear;
   opacity: .1;
   background: #0af;
 	position: fixed;
