@@ -4880,10 +4880,10 @@ button.bg-dark:focus {
   color: #ffffff !important; }
 
 .text-primary {
-  color: #43e97b !important; }
+  color: #F29C4A !important; }
 
 a.text-primary:hover, a.text-primary:focus {
-  color: #38f9d7 !important; }
+  color: #F2B04B !important; }
 
 .text-secondary {
   color: #0000ff !important; }
@@ -5036,7 +5036,7 @@ a:not(.heading-brand) {
       align-items: center; }
 
 /* Buttons */
-.btn {
+.btn:not(.btn-link) {
   box-shadow: 0 4px 6px rgba(255, 255, 0, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08); }
   .btn:active, .btn:focus, .btn:focus {
     box-shadow: none !important; }
@@ -5081,7 +5081,7 @@ footer a {
   vertical-align: middle;
   background-color: #ffffff;
   margin-right: 1rem;
-  color: #43e97b; }
+  color: #F29B4A; }
   .icon-box .icon-box-inner {
     display: -ms-flexbox;
     display: flex;
@@ -5167,7 +5167,7 @@ pre[class*="language-"] {
 .token.prolog,
 .token.doctype,
 .token.cdata {
-  color: slategray; }
+  color: #215808; }
 
 .token.punctuation {
   color: #adb5bd; }
@@ -5192,7 +5192,7 @@ pre[class*="language-"] {
 .token.char,
 .token.builtin,
 .token.inserted {
-  color: #5cc72a; }
+  color: #F29B4A; }
 
 .token.operator,
 .token.entity,
@@ -5209,7 +5209,7 @@ pre[class*="language-"] {
   color: #ff1744; }
 
 .token.keyword {
-  color: #aa00ff; }
+  color: #F29B4A; }
 
 .token.regex,
 .token.important {
@@ -5263,8 +5263,10 @@ pre[class*="language-"].line-numbers > code {
 
 /* Custom background */
 .bg-anim {
-  background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
-}
+  background: #F2994A;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #F2C94C, #F2994A);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #F2C94C, #F2994A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        }
 
 /*waves****************************/
 
