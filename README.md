@@ -1,6 +1,6 @@
 # datamol website
 
-Pure static HTML/CSS website that uses: [jQuery](https://jquery.com/), [Bootstrap](https://getbootstrap.com/), [Prism](https://prismjs.com/) (syntax highlightning).
+Pure static HTML/CSS website that uses: [jQuery](https://jquery.com/), [Bootstrap 4](https://getbootstrap.com/), [Prism](https://prismjs.com/) (syntax highlightning).
 
 ## License
 
