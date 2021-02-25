@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="99.967 243.208 21.731 21.73"
+  xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#F2B14B;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F2994A;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#F2C94C;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F2B14B;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <g fill="url(#grad1)">
+    <path fill="url(#grad1)" class="cls-1" d="M21.73035,19.84668a2.83061,2.83061,0,1,0-2.83061,2.83061A2.81124,2.81124,0,0,0,21.73035,19.84668Z" transform="matrix(-1, 0, 0, -1, 121.697289, 265.906483)"/>
+    <path fill="url(#grad1)" class="cls-1" d="M18.878,6.62993a2.81124,2.81124,0,0,1-2.83061-2.83061,2.83061,2.83061,0,0,1,5.66121,0A2.81124,2.81124,0,0,1,18.878,6.62993Z" transform="matrix(-1, 0, 0, -1, 121.697289, 265.906483)"/>
+  </g>
+  <path fill="url(#grad2)" class="cls-1" d="M13.70667,19.84668a2.83069,2.83069,0,1,1-5.66122,0,5.19921,5.19921,0,0,0-5.19307-5.19307,2.83069,2.83069,0,1,1,0-5.66121A5.19921,5.19921,0,0,0,8.04545,3.79932a2.83061,2.83061,0,1,1,2.83061,2.83061,5.19308,5.19308,0,0,0,0,10.38615A2.84364,2.84364,0,0,1,13.70667,19.84668Z" transform="matrix(-1, 0, 0, -1, 121.697289, 265.906483)"/>
+</svg>
