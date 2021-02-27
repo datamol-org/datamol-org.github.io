@@ -4,6 +4,28 @@
     url("../fonts/Necto-Mono.woff") format("woff");
 }
 
+/* Small devices (landscape phones, 576px and down) */
+@media (max-width: 576px) {
+
+}
+
+/* Medium devices (tablets, 768px and down) */
+@media (max-width: 768px) {
+  .hide-on-small-screen {
+    display: none;
+  }
+}
+
+/* Large devices (desktops, 992px and down) */
+@media (max-width: 992px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and down) */
+@media (max-width: 1200px) {
+
+}
+
 /*!
 * Created by Kroplet (https://www.kroplet.com) 
 * The easiest way to create Bootstrap 4 themes. 
