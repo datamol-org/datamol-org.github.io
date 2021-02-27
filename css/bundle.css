@@ -6,24 +6,28 @@
 
 /* Small devices (landscape phones, 576px and down) */
 @media (max-width: 576px) {
-
 }
 
 /* Medium devices (tablets, 768px and down) */
 @media (max-width: 768px) {
-  .hide-on-small-screen {
-    display: none;
-  }
 }
 
 /* Large devices (desktops, 992px and down) */
 @media (max-width: 992px) {
+  .hide-on-small-screens {
+    display: none;
+  }
+}
 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .hide-on-big-screens {
+    display: none;
+  }
 }
 
 /* Extra large devices (large desktops, 1200px and down) */
 @media (max-width: 1200px) {
-
 }
 
 /*!
@@ -7077,11 +7081,15 @@ pre[class*="language-"].line-numbers > code {
 
 /*waves****************************/
 
-.box {
+.box:not(.nav--open) {
   position: fixed;
   top: 0;
   transform: rotate(80deg);
   left: 0;
+}
+
+.box.nav--open {
+  display: none;
 }
 
 .wave {

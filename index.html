@@ -34,7 +34,8 @@
       crossorigin="anonymous"
     />
     <!-- Bootstrap CSS / Color Scheme -->
-    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/bundle.css" />
+    <link rel="stylesheet" href="css/mobile_nav.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css"
@@ -43,6 +44,63 @@
 
   <body>
     <!--Header Section-->
+    <header>
+      <nav id="nav" class="nav hide-on-big-screens" role="navigation">
+        <!-- ACTUAL NAVIGATION MENU -->
+        <div>
+          <ul
+            class="nav__menu"
+            id="menu"
+            tabindex="-1"
+            aria-label="main navigation"
+            hidden
+          >
+            <li class="nav__item">
+              <a href="#" class="nav__link">Read the story</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Documentation</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Discuss on GitHub</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">View source code</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- MENU TOGGLE BUTTON -->
+        <a
+          href="#nav"
+          class="nav__toggle"
+          role="button"
+          aria-expanded="false"
+          aria-controls="menu"
+        >
+          <svg
+            class="menuicon"
+            xmlns="http://www.w3.org/2000/svg"
+            width="50"
+            height="50"
+            viewBox="0 0 50 50"
+          >
+            <title>Toggle Menu</title>
+            <g>
+              <line class="menuicon__bar" x1="13" y1="16.5" x2="37" y2="16.5" />
+              <line class="menuicon__bar" x1="13" y1="24.5" x2="37" y2="24.5" />
+              <line class="menuicon__bar" x1="13" y1="24.5" x2="37" y2="24.5" />
+              <line class="menuicon__bar" x1="13" y1="32.5" x2="37" y2="32.5" />
+              <circle class="menuicon__circle" r="23" cx="25" cy="25" />
+            </g>
+          </svg>
+        </a>
+
+        <!-- ANIMATED BACKGROUND ELEMENT -->
+        <div class="splash"></div>
+      </nav>
+    </header>
+
     <section class="bg-anim pt-5 pb-6">
       <div class="container">
         <div class="box">
@@ -58,7 +116,7 @@
               <img height="72" style="display: inline" src="assets/logo.svg" />
               <span>datamol</span>
             </div>
-            <div class="hide-on-small-screen">
+            <div class="hide-on-small-screens">
               <a
                 href="https://to-valence-blog-post"
                 class="btn btn-link svg-icon"
@@ -74,7 +132,7 @@
                 Documentation</a
               >
             </div>
-            <div>
+            <div class="hide-on-small-screens">
               <a
                 href="https://github.com/datamol-org/datamol/discussions"
                 class="btn btn-link svg-icon"
@@ -122,7 +180,12 @@
         </div>
         <div class="row mt-6">
           <div class="col-md-8 mx-auto text-center">
-            <h3>Molecular Computation made Easy.</h3>
+            <h3 class="hide-on-small-screens">
+              Molecular Computation made Easy.
+            </h3>
+            <h4 class="hide-on-big-screens">
+              Molecular Computation made Easy.
+            </h4>
             <p class="lead mb-5">
               datamol is an elegant, rdkit-powered python library to perform
               various computational tasks on molecules.
@@ -434,6 +497,11 @@ dm.to_sdf(mols, "gs://data-bucket/smiles.sdf")
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/plugins/toolbar/prism-toolbar.min.js"
       integrity="sha512-cu2C9EssrOrVXT4thyL4gz/qWyh3Lq9XbICUXYyh3zJRCSKk1J08tBKPXnsSpdpZXOliaK/OJBygw/l0twAmwA=="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
       crossorigin="anonymous"
     ></script>
     <script
