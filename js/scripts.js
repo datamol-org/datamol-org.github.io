@@ -27,14 +27,6 @@ menuToggle.addEventListener("click", (e) => {
 
   if (menu.hidden) {
     bodyScrollLock.enableBodyScroll(nav);
-    setTimeout(300, () => {
-      /**
-       * Trigger scroll event to prevent
-       * Horizontal scroll glitch during
-       * closing animation
-       */
-      $("body").scrollTop(1);
-    });
   } else {
     bodyScrollLock.disableBodyScroll(nav);
   }
