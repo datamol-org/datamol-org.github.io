@@ -9,7 +9,6 @@ $(function () {
 });
 
 // mobile nav business logic
-var body = document.querySelector("body");
 var nav = document.querySelector("#nav");
 var waves = document.querySelector(".box");
 var menu = document.querySelector("#menu");
@@ -34,7 +33,7 @@ menuToggle.addEventListener("click", (e) => {
        * Horizontal scroll glitch during
        * closing animation
        */
-      $(window).scroll();
+      $("body").scrollTop(1);
     });
   } else {
     bodyScrollLock.disableBodyScroll(nav);
