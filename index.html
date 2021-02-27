@@ -1,56 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>datamol - Molecular Computation Made Easy.</title>
+    <meta
+      name="description"
+      content="datamol - Molecules Computation made Easy."
+    />
 
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <title>datamol - Molecular Computation Made Easy.</title>
-  <meta name="description" content="datamol - Molecules Computation made Easy." />
+    <link rel="icon" type="image/svg" href="assets/logo.svg" />
 
-  <link rel="icon" type="image/svg" href="assets/logo.svg">
+    <!--Google font-->
+    <link
+      href="https://fonts.googleapis.com/css?family=K2D:300,400,500,700,800"
+      rel="stylesheet"
+    />
+    <!--Prism-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/plugins/toolbar/prism-toolbar.min.css"
+      integrity="sha512-DSAA0ziYwggOJ3QyWFZhIaU8bSwQLyfnyIrmShRLBdJMtiYKT7Ju35ujBCZ6ApK3HURt34p2xNo+KX9ebQNEPQ=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/plugins/command-line/prism-command-line.min.css"
+      integrity="sha512-4Y1uID1tEWeqDdbb7452znwjRVwseCy9kK9BNA7Sv4PlMroQzYRznkoWTfRURSADM/SbfZSbv/iW5sNpzSbsYg=="
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap CSS / Color Scheme -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css"
+    />
+  </head>
 
-  <!--Google font-->
-  <link href="https://fonts.googleapis.com/css?family=K2D:300,400,500,700,800" rel="stylesheet" />
-  <!--Prism-->
-  <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/plugins/toolbar/prism-toolbar.min.css"
-    integrity="sha512-DSAA0ziYwggOJ3QyWFZhIaU8bSwQLyfnyIrmShRLBdJMtiYKT7Ju35ujBCZ6ApK3HURt34p2xNo+KX9ebQNEPQ=="
-    crossorigin="anonymous" />
-  <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/plugins/command-line/prism-command-line.min.css"
-    integrity="sha512-4Y1uID1tEWeqDdbb7452znwjRVwseCy9kK9BNA7Sv4PlMroQzYRznkoWTfRURSADM/SbfZSbv/iW5sNpzSbsYg=="
-    crossorigin="anonymous" />
-  <!-- Bootstrap CSS / Color Scheme -->
-  <link rel="stylesheet" href="css/bootstrap.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css" />
-</head>
+  <body>
+    <!--Header Section-->
+    <section class="bg-anim pt-5 pb-6">
+      <div class="container">
+        <div class="box">
+          <div class="wave -one"></div>
+          <div class="wave -two"></div>
+          <div class="wave -three"></div>
+        </div>
+        <div class="row">
+          <div
+            class="col-12 d-flex flex-row align-items-center justify-content-between"
+          >
+            <div class="heading-brand">
+              <img height="72" style="display: inline" src="assets/logo.svg" />
+              datamol
+            </div>
+            <div>
+              <a
+                href="https://to-valence-blog-post"
+                class="btn btn-link svg-icon"
+                target="_blank"
+              >
+                Read the story</a
+              >
+              <a
+                href="https://datamol-org--datamol.github.privpage.net/"
+                class="btn btn-link svg-icon"
+                target="_blank"
+              >
+                Documentation</a
+              >
+            </div>
+            <div>
+              <a
+                href="https://github.com/datamol-org/datamol/discussions"
+                class="btn btn-link svg-icon"
+                target="_blank"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                title="Discuss on GitHub"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  fill="currentColor"
+                  class="bi bi-people-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"
+                  />
+                  <path
+                    fill-rule="evenodd"
+                    d="M5.216 14A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216z"
+                  />
+                  <path d="M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z" />
+                </svg>
+              </a>
 
-<body>
-  <!--Header Section-->
-  <section class="bg-anim pt-5 pb-6">
-    <div class="container">
-      <div class="box">
-        <div class="wave -one"></div>
-        <div class="wave -two"></div>
-        <div class="wave -three"></div>
-      </div>
-      <div class="row">
-        <div class="col-12 d-flex flex-row align-items-center justify-content-between">
-          <div class="heading-brand">
-            <img height="72" style="display: inline" src="assets/logo.svg" />
-            datamol
-          </div>
-          <div>
-            <a href="https://to-valence-blog-post" class="btn btn-link svg-icon" target="_blank">
-              Read the story</a>
-            <a href="https://datamol-org--datamol.github.privpage.net/" class="btn btn-link svg-icon"
-              target="_blank">
-              Documentation</a>
-          </div>
-          <div>
-            <!-- <a
-                href="https://twitter.com/invivo_ai?lang=en"
+              <a
+                href="https://github.com/datamol-org/datamol"
                 class="btn btn-link svg-icon"
                 target="_blank"
               >
@@ -59,64 +112,53 @@
                   width="32"
                   height="32"
                   fill="currentColor"
-                  class="bi bi-twitter"
+                  class="bi bi-github"
                   viewBox="0 0 16 16"
                 >
                   <path
-                    d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"
+                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"
                   />
                 </svg>
-              </a> -->
-            <a href="https://github.com/datamol-org/datamol/discussions" class="btn btn-link svg-icon" target="_blank">
-              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
-                class="bi bi-people-fill" viewBox="0 0 16 16">
-                <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
-                <path fill-rule="evenodd"
-                  d="M5.216 14A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216z" />
-                <path d="M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z" />
-              </svg>
-            </a>
-
-            <a href="https://github.com/datamol-org/datamol" class="btn btn-link svg-icon" target="_blank">
-              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-github"
-                viewBox="0 0 16 16">
-                <path
-                  d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
-              </svg>
-            </a>
-
+              </a>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="row mt-6">
-        <div class="col-md-8 mx-auto text-center">
-          <h1>Molecular Computation made Easy.</h1>
-          <p class="lead mb-5">
-            datamol is an elegant, rdkit-powered python library to perform
-            various computational tasks on molecules.
-          </p>
-          <a href="https://datamol-org--datamol.github.privpage.net/" class="btn btn-light svg-icon">
-            <em class="mr-2" data-feather="play"></em>
-            Get Started
-          </a>
+        <div class="row mt-6">
+          <div class="col-md-8 mx-auto text-center">
+            <h2>Molecular Computation made Easy.</h2>
+            <p class="lead mb-5">
+              datamol is an elegant, rdkit-powered python library to perform
+              various computational tasks on molecules.
+            </p>
+            <a
+              href="https://datamol-org--datamol.github.privpage.net/"
+              class="btn btn-light svg-icon font-weight-bold"
+            >
+              <em class="mr-2" data-feather="play"></em>
+              Get Started
+            </a>
+          </div>
         </div>
-      </div>
-      <div class="row mt-5">
-        <div class="col-md-9 mx-auto">
-          <pre class="language-bash"><code class="language-bash"># All you need is:
+        <div class="row mt-5">
+          <div class="col-md-9 mx-auto">
+            <pre
+              class="language-bash"
+            ><code class="language-bash"># All you need is:
 mamba install -c conda-forge datamol</code></pre>
+          </div>
         </div>
-      </div>
-      <div class="row mt-5">
-        <div class="col-md-9 mx-auto">
-          <div class="code-window">
-            <div class="dots">
-              <div class="red"></div>
-              <div class="orange"></div>
-              <div class="green"></div>
-            </div>
+        <div class="row mt-5">
+          <div class="col-md-9 mx-auto">
+            <div class="code-window">
+              <div class="dots">
+                <div class="red"></div>
+                <div class="orange"></div>
+                <div class="green"></div>
+              </div>
 
-            <pre class="language-python"><code class="language-python">import datamol as dm
+              <pre
+                class="language-python"
+              ><code class="language-python">import datamol as dm
 
 # Common functions
 mol = dm.to_mol("O=C(C)Oc1ccccc1C(=O)O", sanitize=True)
@@ -153,182 +195,255 @@ sasa = dm.conformers.sasa(mol_with_conformers)
 mols = dm.read_sdf("s3://my-awesome-data-lake/smiles.sdf", as_df=False)
 dm.to_sdf(mols, "gs://data-bucket/smiles.sdf")
               </code></pre>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!--Features Section-->
-  <section class="py-6">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8 mx-auto">
-          <h2 class="text-center text-md-left">
-            Why You'll Love
-            <span class="text-primary">datamol</span>
-          </h2>
-          <div class="row feature-grid">
-            <div class="col-sm-6">
-              <div class="media">
-                <div class="icon-box">
-                  <div class="icon-box-inner">
-                    <span data-feather="check-circle" width="28" height="28"></span>
-                  </div>
-                </div>
-                <div class="media-body">Dead Simple</div>
-              </div>
-            </div>
-            <div class="col-sm-6">
-              <div class="media">
-                <div class="icon-box">
-                  <div class="icon-box-inner">
-                    <span data-feather="command" width="28" height="28"></span>
-                  </div>
-                </div>
-                <div class="media-body">Highly Intuitive</div>
-              </div>
-            </div>
-            <div class="col-sm-6">
-              <div class="media">
-                <div class="icon-box">
-                  <div class="icon-box-inner">
-                    <span data-feather="feather" width="28" height="28"></span>
-                  </div>
-                </div>
-                <div class="media-body">Light as a Feather</div>
-              </div>
-            </div>
-            <div class="col-sm-6">
-              <div class="media">
-                <div class="icon-box">
-                  <div class="icon-box-inner">
-                    <span data-feather="zap" width="28" height="28"></span>
-                  </div>
-                </div>
-                <div class="media-body">Blazing Fast</div>
-              </div>
-            </div>
-            <div class="col-sm-6">
-              <div class="media">
-                <div class="icon-box">
-                  <div class="icon-box-inner">
-                    <span data-feather="git-pull-request" width="28" height="28"></span>
-                  </div>
-                </div>
-                <div class="media-body">Extensible</div>
-              </div>
-            </div>
-            <div class="col-sm-6">
-              <div class="media">
-                <div class="icon-box">
-                  <div class="icon-box-inner">
-                    <span data-feather="droplet" width="28" height="28"></span>
-                  </div>
-                </div>
-                <div class="media-body">Feature-rich</div>
-              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!--Used By Section-->
-  <section class="pb-6">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8 mx-auto">
-          <h2 class="text-center text-md-left">
-            Standing on the Shoulder of Giants
-          </h2>
-          <p class="lead text-muted">
-            datamol stands on top of the most powerful numerical and cheminformatics scientific libraries.
-          </p>
-          <div class="mt-5 d-flex flex-row justify-content-md-between flex-wrap press-icons">
-            <a href="https://github.com/rdkit/rdkit" class="btn btn-link svg-icon" target="_blank">
-              <img src="https://avatars.githubusercontent.com/u/2018047?s=400&v=4" width="128" height="128"
-                alt="Rdkit" />
-            </a>
-
-            <a href="https://pandas.pydata.org/" class="btn btn-link svg-icon" target="_blank">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/e/ed/Pandas_logo.svg" alt="Numpy" width="128"
-                height="128" />
-            </a>
-
-            <a href="https://numpy.org/" class="btn btn-link svg-icon" target="_blank">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/3/31/NumPy_logo_2020.svg" alt="Numpy" width="128"
-                height="128" />
-            </a>
-
-            <a href="https://matplotlib.org/stable/index.html" class="btn btn-link svg-icon" target="_blank">
-              <img src="https://matplotlib.org/stable/_static/logo2_compressed.svg" alt="Matplotlib" width="128"
-                height="128" />
-            </a>
-
+    <!--Features Section-->
+    <section class="py-6">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 mx-auto">
+            <h2 class="text-center text-md-left">
+              Why You'll Love
+              <span class="text-primary">datamol</span>
+            </h2>
+            <div class="row feature-grid">
+              <div class="col-sm-6">
+                <div class="media">
+                  <div class="icon-box">
+                    <div class="icon-box-inner">
+                      <span
+                        data-feather="check-circle"
+                        width="28"
+                        height="28"
+                      ></span>
+                    </div>
+                  </div>
+                  <div class="media-body">Dead Simple</div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="media">
+                  <div class="icon-box">
+                    <div class="icon-box-inner">
+                      <span
+                        data-feather="command"
+                        width="28"
+                        height="28"
+                      ></span>
+                    </div>
+                  </div>
+                  <div class="media-body">Highly Intuitive</div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="media">
+                  <div class="icon-box">
+                    <div class="icon-box-inner">
+                      <span
+                        data-feather="feather"
+                        width="28"
+                        height="28"
+                      ></span>
+                    </div>
+                  </div>
+                  <div class="media-body">Light as a Feather</div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="media">
+                  <div class="icon-box">
+                    <div class="icon-box-inner">
+                      <span data-feather="zap" width="28" height="28"></span>
+                    </div>
+                  </div>
+                  <div class="media-body">Blazing Fast</div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="media">
+                  <div class="icon-box">
+                    <div class="icon-box-inner">
+                      <span
+                        data-feather="git-pull-request"
+                        width="28"
+                        height="28"
+                      ></span>
+                    </div>
+                  </div>
+                  <div class="media-body">Extensible</div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="media">
+                  <div class="icon-box">
+                    <div class="icon-box-inner">
+                      <span
+                        data-feather="droplet"
+                        width="28"
+                        height="28"
+                      ></span>
+                    </div>
+                  </div>
+                  <div class="media-body">Feature-rich</div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!--footer-->
-  <footer class="py-5 bg-light">
-    <div class="container">
-      <div class="row">
-        <div class="col-12 text-center">
-          <ul class="list-inline">
-            <li class="list-inline-item">
-              <a href="http://invivoai.com/" target="_blank">Sponsored by Valence</a>
-            </li>
-            <li class="list-inline-item">
-              <a href="https://to-valence-blog-post" target="_blank">
-                Read the story</a>
-            </li>
-            <li class="list-inline-item">
-              <a href="https://datamol-org--datamol.github.privpage.net/" target="_blank">Documentation</a>
-            </li>
-            <li class="list-inline-item">
-              <a href="https://github.com/datamol-org/datamol" target="_blank">GitHub</a>
-            </li>
-          </ul>
+    <!--Used By Section-->
+    <section class="pb-6">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 mx-auto">
+            <h2 class="text-center text-md-left">
+              Standing on the Shoulder of Giants
+            </h2>
+            <p class="lead text-muted">
+              datamol stands on top of the most powerful numerical and
+              cheminformatics scientific libraries.
+            </p>
+            <div
+              class="mt-5 d-flex flex-row justify-content-md-between flex-wrap press-icons"
+            >
+              <a
+                href="https://github.com/rdkit/rdkit"
+                class="btn btn-link svg-icon"
+                target="_blank"
+              >
+                <img
+                  src="https://avatars.githubusercontent.com/u/2018047?s=400&v=4"
+                  width="128"
+                  height="128"
+                  alt="Rdkit"
+                />
+              </a>
+
+              <a
+                href="https://pandas.pydata.org/"
+                class="btn btn-link svg-icon"
+                target="_blank"
+              >
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/e/ed/Pandas_logo.svg"
+                  alt="Numpy"
+                  width="128"
+                  height="128"
+                />
+              </a>
+
+              <a
+                href="https://numpy.org/"
+                class="btn btn-link svg-icon"
+                target="_blank"
+              >
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/3/31/NumPy_logo_2020.svg"
+                  alt="Numpy"
+                  width="128"
+                  height="128"
+                />
+              </a>
+
+              <a
+                href="https://matplotlib.org/stable/index.html"
+                class="btn btn-link svg-icon"
+                target="_blank"
+              >
+                <img
+                  src="https://matplotlib.org/stable/_static/logo2_compressed.svg"
+                  alt="Matplotlib"
+                  width="128"
+                  height="128"
+                />
+              </a>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="row my-2">
-        <div class="col-md-4 mx-auto text-muted text-center small-xl">
-          &copy; 2021 datamol - All Rights Reserved
+    </section>
+
+    <!--footer-->
+    <footer class="py-5 bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <a href="http://invivoai.com/" target="_blank"
+                  >Sponsored by Valence</a
+                >
+              </li>
+              <li class="list-inline-item">
+                <a href="https://to-valence-blog-post" target="_blank">
+                  Read the story</a
+                >
+              </li>
+              <li class="list-inline-item">
+                <a
+                  href="https://datamol-org--datamol.github.privpage.net/"
+                  target="_blank"
+                  >Documentation</a
+                >
+              </li>
+              <li class="list-inline-item">
+                <a href="https://github.com/datamol-org/datamol" target="_blank"
+                  >GitHub</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row my-2">
+          <div class="col-md-4 mx-auto text-muted text-center small-xl">
+            &copy; 2021 datamol - All Rights Reserved
+          </div>
         </div>
       </div>
-    </div>
-  </footer>
+    </footer>
 
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.7.3/feather.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/prism.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/components/prism-python.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/components/prism-bash.min.js"
-    integrity="sha512-JvRd44DHaJAv/o3wxi/dxhz2TO/jwwX8V5/LTr3gj6QMQ6qNNGXk/psoingLDuc5yZmccOq7XhpVaelIZE4tsQ=="
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/plugins/toolbar/prism-toolbar.min.js"
-    integrity="sha512-cu2C9EssrOrVXT4thyL4gz/qWyh3Lq9XbICUXYyh3zJRCSKk1J08tBKPXnsSpdpZXOliaK/OJBygw/l0twAmwA=="
-    crossorigin="anonymous"></script>
-  <script
-    src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/plugins/copy-to-clipboard/prism-copy-to-clipboard.min.js"
-    integrity="sha512-bWzyGaP/f19RLeYGN6ZhDgvkS7GM0Fq23lOI1/PB3lV6I775RIDzXLxCGR4iiDGzeMsQ3lncuXUQMFP7qO9lIQ=="
-    crossorigin="anonymous"></script>
-  <script src="js/scripts.js"></script>
-</body>
-
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.7.3/feather.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/components/prism-python.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/components/prism-bash.min.js"
+      integrity="sha512-JvRd44DHaJAv/o3wxi/dxhz2TO/jwwX8V5/LTr3gj6QMQ6qNNGXk/psoingLDuc5yZmccOq7XhpVaelIZE4tsQ=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/plugins/toolbar/prism-toolbar.min.js"
+      integrity="sha512-cu2C9EssrOrVXT4thyL4gz/qWyh3Lq9XbICUXYyh3zJRCSKk1J08tBKPXnsSpdpZXOliaK/OJBygw/l0twAmwA=="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/plugins/copy-to-clipboard/prism-copy-to-clipboard.min.js"
+      integrity="sha512-bWzyGaP/f19RLeYGN6ZhDgvkS7GM0Fq23lOI1/PB3lV6I775RIDzXLxCGR4iiDGzeMsQ3lncuXUQMFP7qO9lIQ=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/scripts.js"></script>
+  </body>
 </html>
