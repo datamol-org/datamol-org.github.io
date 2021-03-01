@@ -7252,3 +7252,8 @@ pre[class*="language-"].line-numbers > code {
     opacity: 0;
   }
 }
+
+
+.social-media-icon {
+  padding: 12px;
+}
