@@ -5,7 +5,7 @@ $(function () {
 
 // tooltips
 $(function () {
-  $('[data-toggle="tooltip"]').tooltip();
+  $('[data-toggle="tooltip"]').tooltip({ trigger: "hover" });
 });
 
 // mobile nav business logic
