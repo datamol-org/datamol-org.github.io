@@ -6793,7 +6793,10 @@ a:not(.heading-brand) {
   font-size: 2rem;
   display: flex;
   align-items: center;
-  margin-left: 12px;
+}
+
+.heading-brand img {
+  margin-right: 12px;
 }
 
 .svg-icon {
