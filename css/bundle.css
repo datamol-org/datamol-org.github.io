@@ -6842,6 +6842,9 @@ a:not(.heading-brand) {
 }
 
 /*Press Icons*/
+.press-icons {
+  justify-content: center;
+}
 .press-icons img:not(:last-child) {
   margin-right: 4rem;
   margin-bottom: 1rem;
