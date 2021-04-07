@@ -7092,10 +7092,10 @@ pre[class*="language-"].line-numbers > code {
 /*waves****************************/
 
 .box:not(.nav--open) {
-  position: fixed;
+  position: absolute;
   top: 0;
   transform: rotate(80deg);
-  left: 0;
+  right: 0;
 }
 
 .box.nav--open {
@@ -7106,22 +7106,22 @@ pre[class*="language-"].line-numbers > code {
   position: fixed;
   top: 0;
   left: 0;
-  opacity: 0.2;
+  opacity: 0.3;
   position: absolute;
   top: 3%;
-  left: 10%;
+  right: 10%;
   background: #0af;
-  width: 1000px;
-  height: 900px;
-  margin-left: -150px;
+  width: 700px;
+  height: 600px;
+  margin-right: -150px;
   margin-top: -250px;
   transform-origin: 50% 48%;
   border-radius: 43%;
-  animation: drift 30s infinite linear;
+  animation: drift 50s infinite linear;
 }
 
 .wave.-three {
-  animation: drift 25s infinite linear;
+  animation: drift 30s infinite linear;
   position: fixed;
   background-color: #77daff;
 }
